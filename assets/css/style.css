@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: auto;
+}
+
+.container .content_image {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container .content_image img {
+    width: 900px;
+}
+
+.container .text {
+    display: flex;
+    justify-content: center;
+}
+
+.container .text h1 {
+    margin-top: 60px;
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container .price {
+    display: flex;
+    justify-content: center;
+}
+
+.container .price p {
+    margin: 20px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #43aa8b;
+    font-weight: bold;
+}
+
+.container .button {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.button .txt_button {
+    border: 2px solid #43aa8b;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+.button .txt_button{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    color: #43aa8b;
+    font-weight: bold;
+}
+
+.button .txt_button:hover{
+    background-color: #43aa8b;
+    color: #ffffff;
+}
